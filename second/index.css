@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+.container-a {
+    width: 100%;
+    border: 5px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.square-a {
+    width: 50px;
+    height: 100px;
+    background-color: purple;
+    display: inline-block;
+}
+.square-b {
+    width: 350px;
+    height: 150px;
+    background-color: green;
+    display: inline-block;
+}
+.circle-a {
+    width: 125px;
+    height: 150px;
+    border-radius: 90%;
+    background-color: lightblue;
+    display: inline-block;
+}
+.container-b {
+    width: 100%;
+    border: 5px dotted black;
+    padding: 50px;
+    box-sizing: border-box;
+    margin-top: 25px;
+}
